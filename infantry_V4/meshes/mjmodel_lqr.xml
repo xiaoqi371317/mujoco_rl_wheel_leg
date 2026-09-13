@@ -1,0 +1,257 @@
+<mujoco model="infantry_V2">
+  <compiler angle="radian"/>
+
+  <default>
+    <!-- 机器人所有 geom：只跟环境(2)发生碰撞，不跟机器人(1)互撞 -->
+    <geom contype="1" conaffinity="2"/>
+  </default>
+
+  <asset>
+    <mesh name="base_Link_del" file="base_Link_del.STL"/>
+    <mesh name="rf0_Link" file="rf0_Link.STL"/>
+    <mesh name="rf1_Link" file="rf1_Link.STL"/>
+    <mesh name="r_wheel_Link" file="r_wheel_Link.STL"/>
+    <mesh name="lf0_Link" file="lf0_Link.STL"/>
+    <mesh name="lf1_Link" file="lf1_Link.STL"/>
+    <mesh name="l_wheel_Link" file="l_wheel_Link.STL"/>
+    <mesh name="r20_Link" file="r20_Link.STL"/>
+    <mesh name="r21_Link" file="r21_Link.STL"/>
+    <mesh name="r22_Link" file="r22_Link.STL"/>
+    <mesh name="r23_Link" file="r23_Link.STL"/>
+    <mesh name="l20_Link" file="l20_Link.STL"/>
+    <mesh name="l21_Link" file="l21_Link.STL"/>
+    <mesh name="l22_Link" file="l22_Link.STL"/>
+    <mesh name="l23_Link" file="l23_Link.STL"/>
+
+    <material name="floor_gray"
+          rgba="0.65 0.65 0.65 1"
+          specular="0.15"
+          shininess="0.6"/>
+
+    <!-- 蓝色方格纹理 -->
+    <texture name="blue_checker_tex"
+           type="2d"
+           builtin="checker"
+           width="512"
+           height="512"
+           rgb1="0.2 0.4 0.9"
+           rgb2="0.8 0.9 1.0"/>
+
+    <!-- 地面材质 -->
+    <material name="blue_checker_mat"
+            texture="blue_checker_tex"
+            texrepeat="20 20"
+            reflectance="0.1"/>
+    <hfield name="terrain_hf"
+            file="terrain_hfield.png"
+            size="3.2 2.4 0.45 0.06"/>
+  </asset>
+
+<worldbody>
+  <geom name="floor" type="plane" size="40 40 0.1"
+    material="blue_checker_mat"
+    contype="2" conaffinity="1"
+    condim="3"
+    friction="2.0 0.02 0.0005"/>
+
+  <geom name="step_20cm"
+      type="box"
+      pos="-10.0 0.0 0.10"
+      size="3.2 4.0 0.10"
+      rgba="0.9 0.6 0.2 1"
+      contype="2" conaffinity="1"
+      condim="3"
+      friction="2.0 0.02 0.0005"/>
+  <geom name="fly_ramp"
+      type="box"
+      pos="-5.4456 0.0 0.2765"
+      euler="0 0.296706 0"
+      size="0.9457 4 0.1"
+      rgba="0.6 0.6 0.6 1"
+      contype="2" conaffinity="1"
+      condim="3"
+      friction="2.0 0.02 0.0005"/>
+  <geom name="fly_ramp_1"
+      type="box"
+      pos="-5.2456 0.0 0.2153538637"
+      euler="0 0.296706 0"
+      size="1.1 4 0.1"
+      rgba="0.6 0.6 0.6 1"
+      contype="2" conaffinity="1"
+      condim="3"
+      friction="2.0 0.02 0.0005"/>
+
+  <geom name="terrain_hfield"
+      type="hfield"
+      hfield="terrain_hf"
+      pos="7.5 0.0 0.08"
+      rgba="0.70 0.62 0.45 1"
+      contype="2" conaffinity="1"
+      condim="3"
+      friction="2.0 0.02 0.0005"/>
+
+
+
+    <!-- <body name="base_Link_del" pos="-14.5 0 0.2" quat="0 0 0 1"> -->
+    <body name="base_Link_del" pos="0 0 0.25" quat="0 0 0 1">
+    <freejoint/>
+    <inertial
+    pos="-0.00406060 0.0008523 0.09714204"
+    mass="14.528116"
+    fullinertia="0.28353 0.35249 0.3701 -0.00174358 -0.00825907 -0.00214156"/>
+    <site name="imu_site" pos="0 0 0" size="0.005"/>
+    <camera name="follow_cam" pos="0 0 0.45" xyaxes="0 1 0 0 0 1" fovy="55"/>
+    <!-- <geom type="mesh" rgba="1 1 1 1" mesh="base_Link_del"/> -->
+    <geom name="base_Link_del_geom" type="mesh" rgba="1 1 1 1" mesh="base_Link_del"
+            priority="2" condim="1" friction="0 0 0"/>
+    <body name="rf0_Link" pos="0 -0.1877 0.08725" quat="0.707105 0.707108 0 0">
+      <inertial pos="0.0552763 -0.0165544 -0.00927161" quat="-0.005176 0.693173 0.0544357 0.718694" mass="1.1132" diaginertia="0.00641833 0.00468513 0.00204569"/>
+      <joint name="rf0_Joint" pos="0 0 0" axis="0 0 1" armature="0" range="-100 100" actuatorfrcrange="-30 30"/>
+      <geom type="mesh" rgba="1 1 1 1" mesh="rf0_Link"/>
+      <site name="Right_front_site1" pos="0.09435 0 0" size="0.005" rgba="1 0 0 1"/>
+      <site name="right_lf0_qitanhuang" pos ="0.0155 -0.0445 -0.008" size="0.005" rgba="1 0 0 1"/>
+      <body name="rf1_Link" pos="0.17472 0 0">
+        <inertial pos="-0.00283459 -0.0710676 0.0068255" quat="0.483182 0.50274 -0.490133 0.523027" mass="0.306873" diaginertia="0.0025405 0.00248016 8.5602e-05"/>
+        <joint name="rf1_Joint" pos="0 0 0" axis="0 0 1" armature="0.00" range="-1.1 0.63" actuatorfrcrange="-30 30"/>
+        <geom type="mesh" rgba="1 1 1 1" mesh="rf1_Link"/>
+        <site name="Right_front_site2" pos="-0.0160931 0.0609099 0" size="0.005" rgba="1 0 0 1"/>  
+        <site name="right_lf1_qitanhuang" pos ="0.005 -0.046 -0.005" size="0.01" rgba="1 0 0 1"/>
+        <body name="r_wheel_Link" pos="0 -0.208 0.016">
+          <inertial pos="4.1184e-06 -0.00019289 0.019562" mass="0.4904" fullinertia="0.00033958 0.00034133 0.0005817 0 0 0"/>
+          <joint name="r_wheel_Joint" pos="0 0 0" axis="0 0 1" actuatorfrcrange="-30 30"/>
+          <geom type="mesh" rgba="1 1 1 1" mesh="r_wheel_Link"/>
+        </body>
+      </body>
+    </body>
+    <body name="lf0_Link" pos="0 0.1877 0.08725" quat="0.707105 -0.707108 0 0">
+      <inertial pos="0.055403 0.016584 -0.0092702" quat="0.00463484 0.693099 -0.0538381 0.718814" mass="1.1128" diaginertia="0.00641157 0.0046755 0.00204815"/>
+      <joint name="lf0_Joint" pos="0 0 0" axis="0 0 1" armature="0" range="-100 100" actuatorfrcrange="-30 30"/>
+      <geom type="mesh" rgba="1 1 1 1" mesh="lf0_Link"/>
+      <site name="Left_front_site1" pos="0.09435 0 0" size="0.005" rgba="1 0 0 1"/>
+      <site name="left_lf0_qitanhuang" pos ="0.0155 0.0445 -0.008" size="0.005" rgba="1 0 0 1"/>
+      <body name="lf1_Link" pos="0.17472 0 0">
+        <inertial pos="-0.0028358 0.071068 0.0068255" quat="0.50274 0.483182 -0.523027 0.490133" mass="0.30687" diaginertia="0.0025405 0.00248016 8.5602e-05"/>
+        <joint name="lf1_Joint" pos="0 0 0" axis="0 0 1" armature="0.00" range="-0.63 1.1" actuatorfrcrange="-30 30"/>
+        <geom type="mesh" rgba="1 1 1 1" mesh="lf1_Link"/>
+        <site name="Left_front_site2" pos="-0.0160931 -0.0609099 0" size="0.01" rgba="1 0 0 1"/>  
+        <site name="left_lf1_qitanhuang" pos ="0.005 0.046 -0.005" size="0.01" rgba="1 0 0 1"/>
+        <body name="l_wheel_Link" pos="0 0.208 0.016">
+          <inertial pos="-4.1184e-06 0.00019289 0.019562" mass="0.4904" fullinertia="0.00033958 0.00034133 0.0005817 0 0 0"/>
+          <joint name="l_wheel_Joint" pos="0 0 0" axis="0 0 1" actuatorfrcrange="-30 30"/>
+          <geom type="mesh" rgba="1 1 1 1" mesh="l_wheel_Link"/>
+        </body>
+      </body>
+    </body>
+    <body name="r20_Link" pos="0 -0.1877 0.08725" quat="0.707105 0.707108 0 0">
+      <inertial pos="-0.0077129 -0.044014 0.0053168" quat="0.54287 0.453598 -0.539995 0.456012" mass="0.058433" diaginertia="0.000101653 9.09634e-05 1.15321e-05"/>
+      <joint name="r20_Joint" pos="0 0 0" axis="0 0 1" armature="0.00" actuatorfrcrange="-30 30"/>
+      <geom type="mesh" rgba="1 1 1 1" mesh="r20_Link"/>
+      <body name="r21_Link" pos="-0.016285 -0.092933 0.01">
+        <inertial pos="0.05374 -0.013258 -0.01451" quat="0.0690441 0.704772 -0.0560118 0.70384" mass="0.042999" diaginertia="7.83158e-05 7.61359e-05 2.77956e-06"/>
+        <joint name="r21_Link" pos="0 0 0" axis="0 0 1" actuatorfrcrange="-30 30"/>
+        <geom type="mesh" rgba="1 1 1 1" mesh="r21_Link"/>
+        <body name="r22_Link" pos="0.11063 -0.019387 0">
+          <inertial pos="-0.006381 0.08888 -0.0045" quat="0.475753 0.523125 -0.475753 0.523125" mass="0.065877" diaginertia="0.00021104 0.000205523 6.41108e-06"/>
+          <joint name="r22_Joint" pos="0 0 0" axis="0 0 1" actuatorfrcrange="-30 30"/>
+          <geom type="mesh" rgba="1 1 1 1" mesh="r22_Link"/>
+          <site name="Right_rear_site1" pos="0 0.11232 0" size="0.005" rgba="1 1 0 1"/>    
+          <body name="r23_Link" pos="-0.018032 0.17268 0">
+            <inertial pos="0.040186 0 -0.014509" quat="0 0.707107 0 0.707107" mass="0.010945" diaginertia="1.0337e-05 9.8695e-06 6.2034e-07"/>
+            <joint name="r23_Joint" pos="0 0 0" axis="0 0 1" actuatorfrcrange="-30 30"/>
+            <geom type="mesh" rgba="1 1 1 1" mesh="r23_Link"/>
+            <site name="Right_rear_site2" pos="0.08037 0 0" size="0.005" rgba="1 1 0 1"/>  
+          </body>
+        </body>
+      </body>
+    </body>
+    <body name="l20_Link" pos="0 0.1877 0.08725" quat="0.707105 -0.707108 0 0">
+      <inertial pos="-0.0077129 -0.044014 0.0053168" quat="-0.066476 0.705194 0.0534809 0.703863" mass="0.058433" diaginertia="7.83158e-05 7.61355e-05 2.77958e-06"/>
+      <joint name="l20_Joint" pos="0 0 0" axis="0 0 1" armature="0.00" actuatorfrcrange="-30 30"/>
+      <geom type="mesh" rgba="1 1 1 1" mesh="l20_Link"/>
+      <body name="l21_Link" pos="-0.016285 0.092933 0.01">
+        <inertial pos="0.055588 0.013582 -0.01451" quat="-0.066476 0.705194 0.0534809 0.703863" mass="0.042999" diaginertia="7.83158e-05 7.61355e-05 2.77958e-06"/>
+        <joint name="l21_Joint" pos="0 0 0" axis="0 0 1" actuatorfrcrange="-30 30"/>
+        <geom type="mesh" rgba="1 1 1 1" mesh="l21_Link"/>
+        <body name="l22_Link" pos="0.11063 0.019387 0">
+          <inertial pos="-0.006381 -0.08888 -0.0045" quat="0.523125 0.475753 -0.523125 0.475753" mass="0.065877" diaginertia="0.00021104 0.000205523 6.41108e-06"/>
+          <joint name="l22_Joint" pos="0 0 0" axis="0 0 1" actuatorfrcrange="-30 30"/>
+          <geom type="mesh" rgba="1 1 1 1" mesh="l22_Link"/>
+          <site name="Left_rear_site1" pos="0 -0.11232 0" size="0.005" rgba="1 1 0 1"/>   
+          <body name="l23_Link" pos="-0.018032 -0.17268 0">
+            <inertial pos="0.040186 0 -0.014509" quat="0 0.707107 0 0.707107" mass="0.010945" diaginertia="1.0337e-05 9.8695e-06 6.2034e-07"/>
+            <joint name="l23_Joint" pos="0 0 0" axis="0 0 1" actuatorfrcrange="-30 30"/>
+            <geom type="mesh" rgba="1 1 1 1" mesh="l23_Link"/>
+            <site name="Left_rear_site2" pos="0.08037 0 0" size="0.005" rgba="1 1 0 1"/>  
+          </body>
+        </body>
+      </body>
+    </body>
+  </body>
+</worldbody>
+
+<tendon>
+  <spatial name="Left_loop1_tendon" width="0.001">
+    <site site="left_lf1_qitanhuang"/>
+    <site site="left_lf0_qitanhuang"/>
+  </spatial>
+
+  <spatial name="Right_loop1_tendon" width="0.001">
+    <site site="right_lf1_qitanhuang"/>
+    <site site="right_lf0_qitanhuang"/>
+  </spatial>
+</tendon>
+
+<actuator>
+  <motor name="act_lf0" joint="lf0_Joint" gear="1" ctrlrange="-100 100"/>
+  <motor name="act_lf1" joint="lf1_Joint" gear="1" ctrlrange="-100 100"/>
+  <motor name="act_lw"  joint="l_wheel_Joint" gear="1" ctrlrange="-500 500"/>
+
+  <motor name="act_rf0" joint="rf0_Joint" gear="1" ctrlrange="-100 100"/>
+  <motor name="act_rf1" joint="rf1_Joint" gear="1" ctrlrange="-100 100"/>
+  <motor name="act_rw"  joint="r_wheel_Joint" gear="1" ctrlrange="-500 500"/>
+
+  <motor name="act_lf20" joint="l20_Joint" gear="1" ctrlrange="-100 100"/>
+  <motor name="act_rf20" joint="r20_Joint" gear="1" ctrlrange="-100 100"/>
+
+  <motor name="Left_loop1_motor" tendon="Left_loop1_tendon" gear="1" ctrlrange="0 350"/>
+  <motor name="Right_loop1_motor" tendon="Right_loop1_tendon" gear="1" ctrlrange="0 350"/>
+
+
+</actuator>
+
+
+<sensor>
+  <!-- base imu -->
+  <framequat name="orientation" objtype="body" objname="base_Link_del"/>
+  <gyro      name="base_ang_vel" site="imu_site"/>
+  <accelerometer name="base_lin_acc" site="imu_site"/>
+
+  <!-- joint pos/vel -->
+  <jointpos name="lf0_Joint_p" joint="lf0_Joint"/>
+  <jointvel name="lf0_Joint_v" joint="lf0_Joint"/>
+
+  <jointpos name="lf1_Joint_p" joint="lf1_Joint"/>
+  <jointvel name="lf1_Joint_v" joint="lf1_Joint"/>
+
+  <jointpos name="l_wheel_Joint_p" joint="l_wheel_Joint"/>
+  <jointvel name="l_wheel_Joint_v" joint="l_wheel_Joint"/>
+
+  <jointpos name="rf0_Joint_p" joint="rf0_Joint"/>
+  <jointvel name="rf0_Joint_v" joint="rf0_Joint"/>
+
+  <jointpos name="rf1_Joint_p" joint="rf1_Joint"/>
+  <jointvel name="rf1_Joint_v" joint="rf1_Joint"/>
+
+  <jointpos name="r_wheel_Joint_p" joint="r_wheel_Joint"/>
+  <jointvel name="r_wheel_Joint_v" joint="r_wheel_Joint"/>
+</sensor>
+
+
+
+  <equality>
+      <connect name="Left_loop1" site1="Left_front_site1" site2="Left_rear_site1" solref="0.001 1" solimp="0.99 0.99 0.01 0.5 2"/>
+      <connect name="Left_loop2" site1="Left_front_site2" site2="Left_rear_site2" solref="0.001 1" solimp="0.99 0.99 0.01 0.5 2"/>
+      <connect name="Right_loop1" site1="Right_front_site1" site2="Right_rear_site1" solref="0.001 1" solimp="0.99 0.99 0.01 0.5 2"/>
+      <connect name="Right_loop2" site1="Right_front_site2" site2="Right_rear_site2" solref="0.001 1" solimp="0.99 0.99 0.01 0.5 2"/>
+    </equality>
+</mujoco>

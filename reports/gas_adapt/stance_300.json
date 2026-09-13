@@ -1,0 +1,78 @@
+{
+  "force_per_side_N": 300.0,
+  "checkpoint": "redacted-source/model_3449.pt",
+  "seconds": 30,
+  "measured_after_s": 5,
+  "cases": {
+    "low": {
+      "pair_rad": 0.012031962163746357,
+      "wheel_dx_m": 0.0014320490881800652,
+      "yaw_abs_rad_s": 0.01068287342786789,
+      "speed_m_s": 0.009802859276533127,
+      "height_error_m": 0.015882082283496857,
+      "tilt_rad": 0.002933888230472803,
+      "passed": false,
+      "pass_fraction": 0.25,
+      "survival": 1.0,
+      "max_heading_excursion_deg": [
+        5.655943870544434,
+        5.401576042175293,
+        5.124031066894531,
+        4.55165958404541
+      ]
+    },
+    "high": {
+      "pair_rad": 0.019097432494163513,
+      "wheel_dx_m": 0.005493956618010998,
+      "yaw_abs_rad_s": 0.024212822318077087,
+      "speed_m_s": 0.02903498336672783,
+      "height_error_m": 0.015430163592100143,
+      "tilt_rad": 0.010907638818025589,
+      "passed": false,
+      "pass_fraction": 0.0,
+      "survival": 1.0,
+      "max_heading_excursion_deg": [
+        6.799011707305908,
+        7.100988864898682,
+        8.572686195373535,
+        7.458400249481201
+      ]
+    },
+    "brake_low": {
+      "pair_rad": 0.0057035814970731735,
+      "wheel_dx_m": 0.0003177567559760064,
+      "yaw_abs_rad_s": 0.005436418578028679,
+      "speed_m_s": 0.0053673493675887585,
+      "height_error_m": 0.01678011193871498,
+      "tilt_rad": 0.002615822944790125,
+      "passed": false,
+      "pass_fraction": 0.0,
+      "survival": 1.0,
+      "max_heading_excursion_deg": [
+        6.375888824462891,
+        6.387589454650879,
+        6.502978801727295,
+        6.392602920532227
+      ]
+    },
+    "brake_high": {
+      "pair_rad": 0.0,
+      "wheel_dx_m": 0.0,
+      "yaw_abs_rad_s": 0.0,
+      "speed_m_s": 0.0,
+      "height_error_m": 0.0,
+      "tilt_rad": 0.0,
+      "passed": false,
+      "pass_fraction": 0.0,
+      "survival": 0.0,
+      "max_heading_excursion_deg": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "passed": 0,
+  "gate_passed": false
+}

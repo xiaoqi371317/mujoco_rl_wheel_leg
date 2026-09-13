@@ -1,0 +1,22 @@
+<mujoco model="infantry_scene">
+  <!-- Standalone test scene: the RL robot on flat ground.
+       mjlab supplies its own terrain, so infantry.xml has no floor.
+       This wrapper exists only for local physics checks / viewing. -->
+  <include file="infantry.xml"/>
+  <statistic center="0 0 0.2" extent="1.2"/>
+  <visual>
+    <headlight diffuse="0.6 0.6 0.6" ambient="0.3 0.3 0.3"/>
+    <rgba haze="0.15 0.25 0.35 1"/>
+  </visual>
+  <asset>
+    <texture name="grid_tex" type="2d" builtin="checker" width="512" height="512"
+             rgb1="0.2 0.3 0.4" rgb2="0.3 0.4 0.5"/>
+    <material name="grid_mat" texture="grid_tex" texrepeat="12 12" reflectance="0.1"/>
+  </asset>
+  <worldbody>
+    <light pos="0 0 3" dir="0 0 -1" directional="true"/>
+    <geom name="floor" type="plane" size="20 20 0.1" material="grid_mat"
+          condim="6" priority="1" friction="1.2 0.02 0.001"
+          contype="2" conaffinity="1"/>
+  </worldbody>
+</mujoco>

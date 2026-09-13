@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+artifacts/
+wandb/
+*.log
+*.pid
+*.mp4
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/

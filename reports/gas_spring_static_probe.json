@@ -1,0 +1,872 @@
+{
+  "model": "infantry_rl/robot/xmls/training_scene_fix_gas_trial.xml",
+  "source_unchanged": true,
+  "hardware_force_calibrated": false,
+  "model_type": "constant-force tendon approximation; no calibrated stroke/friction",
+  "samples": [
+    {
+      "pose_height_m": 0.24,
+      "force_per_side_N": 0.0,
+      "tendon_lengths_m": [
+        0.16269708265249697,
+        0.1626970826524969
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 0.0,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": 0.0,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.24,
+      "force_per_side_N": 100.0,
+      "tendon_lengths_m": [
+        0.16269708265249697,
+        0.1626970826524969
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 4.609786320138124,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": -4.609786320138126,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.24,
+      "force_per_side_N": 200.0,
+      "tendon_lengths_m": [
+        0.16269708265249697,
+        0.1626970826524969
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 9.219572640276247,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": -9.219572640276253,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.24,
+      "force_per_side_N": 300.0,
+      "tendon_lengths_m": [
+        0.16269708265249697,
+        0.1626970826524969
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 13.829358960414373,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": -13.829358960414378,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.22,
+      "force_per_side_N": 0.0,
+      "tendon_lengths_m": [
+        0.15612131270847718,
+        0.15612131270847715
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 0.0,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": 0.0,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.22,
+      "force_per_side_N": 100.0,
+      "tendon_lengths_m": [
+        0.15612131270847718,
+        0.15612131270847715
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 4.618681277147115,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": -4.6186812771471155,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.22,
+      "force_per_side_N": 200.0,
+      "tendon_lengths_m": [
+        0.15612131270847718,
+        0.15612131270847715
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 9.23736255429423,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": -9.237362554294231,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.22,
+      "force_per_side_N": 300.0,
+      "tendon_lengths_m": [
+        0.15612131270847718,
+        0.15612131270847715
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 13.856043831441344,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": -13.856043831441347,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.2,
+      "force_per_side_N": 0.0,
+      "tendon_lengths_m": [
+        0.14995750395604535,
+        0.1499575039560453
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 0.0,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": 0.0,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.2,
+      "force_per_side_N": 100.0,
+      "tendon_lengths_m": [
+        0.14995750395604535,
+        0.1499575039560453
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": -3.552713678800501e-15,
+        "rf1_Joint": 4.536931632944305,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": -4.536931632944309,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.2,
+      "force_per_side_N": 200.0,
+      "tendon_lengths_m": [
+        0.14995750395604535,
+        0.1499575039560453
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": -3.552713678800501e-15,
+        "rf1_Joint": 9.07386326588861,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": -9.073863265888617,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.2,
+      "force_per_side_N": 300.0,
+      "tendon_lengths_m": [
+        0.14995750395604535,
+        0.1499575039560453
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": -7.105427357601002e-15,
+        "rf1_Joint": 13.610794898832914,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": -13.610794898832925,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.18,
+      "force_per_side_N": 0.0,
+      "tendon_lengths_m": [
+        0.14423329143590322,
+        0.14423329143590322
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 0.0,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": 0.0,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.18,
+      "force_per_side_N": 100.0,
+      "tendon_lengths_m": [
+        0.14423329143590322,
+        0.14423329143590322
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 4.367881446766216,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": -4.367881446766216,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.18,
+      "force_per_side_N": 200.0,
+      "tendon_lengths_m": [
+        0.14423329143590322,
+        0.14423329143590322
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 8.735762893532431,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": -8.735762893532431,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.18,
+      "force_per_side_N": 300.0,
+      "tendon_lengths_m": [
+        0.14423329143590322,
+        0.14423329143590322
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 13.103644340298647,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": -13.103644340298647,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.16,
+      "force_per_side_N": 0.0,
+      "tendon_lengths_m": [
+        0.13898275737605909,
+        0.13898275737605906
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 0.0,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": 0.0,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.16,
+      "force_per_side_N": 100.0,
+      "tendon_lengths_m": [
+        0.13898275737605909,
+        0.13898275737605906
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 4.113464119592978,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": -4.1134641195929795,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.16,
+      "force_per_side_N": 200.0,
+      "tendon_lengths_m": [
+        0.13898275737605909,
+        0.13898275737605906
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 8.226928239185956,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": -8.226928239185959,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.16,
+      "force_per_side_N": 300.0,
+      "tendon_lengths_m": [
+        0.13898275737605909,
+        0.13898275737605906
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": -3.552713678800501e-15,
+        "rf1_Joint": 12.340392358778933,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 3.552713678800501e-15,
+        "lf1_Joint": -12.340392358778939,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.14,
+      "force_per_side_N": 0.0,
+      "tendon_lengths_m": [
+        0.13424475454739768,
+        0.13424475454739776
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 0.0,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": 0.0,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.14,
+      "force_per_side_N": 100.0,
+      "tendon_lengths_m": [
+        0.13424475454739768,
+        0.13424475454739776
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 3.7752651765589373,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": -3.775265176558934,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.14,
+      "force_per_side_N": 200.0,
+      "tendon_lengths_m": [
+        0.13424475454739768,
+        0.13424475454739776
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 7.550530353117875,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": -7.550530353117868,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.14,
+      "force_per_side_N": 300.0,
+      "tendon_lengths_m": [
+        0.13424475454739768,
+        0.13424475454739776
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 11.325795529676812,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": -11.325795529676801,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.26,
+      "force_per_side_N": 0.0,
+      "tendon_lengths_m": [
+        0.1696658980927482,
+        0.16966589809274824
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 0.0,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": 0.0,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.26,
+      "force_per_side_N": 100.0,
+      "tendon_lengths_m": [
+        0.1696658980927482,
+        0.16966589809274824
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 4.503968509558738,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": -4.503968509558738,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.26,
+      "force_per_side_N": 200.0,
+      "tendon_lengths_m": [
+        0.1696658980927482,
+        0.16966589809274824
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 9.007937019117476,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": -9.007937019117476,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.26,
+      "force_per_side_N": 300.0,
+      "tendon_lengths_m": [
+        0.1696658980927482,
+        0.16966589809274824
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 13.511905528676214,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": -13.511905528676214,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.28,
+      "force_per_side_N": 0.0,
+      "tendon_lengths_m": [
+        0.17702159571356443,
+        0.17702159571356438
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 0.0,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": 0.0,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.28,
+      "force_per_side_N": 100.0,
+      "tendon_lengths_m": [
+        0.17702159571356443,
+        0.17702159571356438
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 4.289380082668024,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": -4.2893800826680275,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.28,
+      "force_per_side_N": 200.0,
+      "tendon_lengths_m": [
+        0.17702159571356443,
+        0.17702159571356438
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": -3.552713678800501e-15,
+        "rf1_Joint": 8.578760165336048,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": -8.578760165336055,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.28,
+      "force_per_side_N": 300.0,
+      "tendon_lengths_m": [
+        0.17702159571356443,
+        0.17702159571356438
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": -3.552713678800501e-15,
+        "rf1_Joint": 12.868140248004073,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": -12.868140248004083,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.3,
+      "force_per_side_N": 0.0,
+      "tendon_lengths_m": [
+        0.18477981495364854,
+        0.18477981495364917
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 0.0,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": 0.0,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.3,
+      "force_per_side_N": 100.0,
+      "tendon_lengths_m": [
+        0.18477981495364854,
+        0.18477981495364917
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 3.9429271877355863,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": -3.9429271877356173,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.3,
+      "force_per_side_N": 200.0,
+      "tendon_lengths_m": [
+        0.18477981495364854,
+        0.18477981495364917
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 7.8858543754711725,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": -7.885854375471235,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    },
+    {
+      "pose_height_m": 0.3,
+      "force_per_side_N": 300.0,
+      "tendon_lengths_m": [
+        0.18477981495364854,
+        0.18477981495364917
+      ],
+      "spring_joint_torques_Nm": {
+        "rf0_Joint": 0.0,
+        "rf1_Joint": 11.828781563206759,
+        "r_wheel_Joint": 0.0,
+        "lf0_Joint": 0.0,
+        "lf1_Joint": -11.828781563206853,
+        "l_wheel_Joint": 0.0,
+        "r20_Joint": 0.0,
+        "r21_Link": 0.0,
+        "r22_Joint": 0.0,
+        "r23_Joint": 0.0,
+        "l20_Joint": 0.0,
+        "l21_Joint": 0.0,
+        "l22_Joint": 0.0,
+        "l23_Joint": 0.0
+      }
+    }
+  ]
+}

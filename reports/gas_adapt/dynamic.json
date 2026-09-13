@@ -1,0 +1,1711 @@
+{
+  "checkpoint": "redacted-source/model_3449.pt",
+  "repeats": 4,
+  "seconds": 9.0,
+  "terrain_seed": 1043,
+  "patch_size_m": [
+    44,
+    12
+  ],
+  "cases": {
+    "flat_drive_0.0_gas0": {
+      "force_per_side_N": 0,
+      "mode": "drive",
+      "speed": 0.0,
+      "terrain": 0,
+      "motor_peak_Nm": 29.95499610900879,
+      "leg_saturation_fraction": 0.0005555555690079927,
+      "passed": true,
+      "original_criteria_passed": true,
+      "phase_speed_mae": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "phase_min_speed_retention": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phase_samples": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "success_fraction": 1.0,
+      "survival_fraction": 1.0,
+      "tracking_fraction": 0.9942857027053833,
+      "speed_mae": 0.012122522108256817,
+      "yaw_mae": 0.024553485214710236,
+      "tilt_deg": 0.2766593098640442,
+      "height_mae": 0.00684701930731535,
+      "high_latency_s": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "high_peak_m": 0.0,
+      "min_body_to_wheel_m": 0.0,
+      "body_rise_m": 0.0,
+      "jump_clearance_m": 0.0,
+      "airtime_s": 0.0,
+      "takeoff_vz": 0.0,
+      "jump_trigger_forward_mps": -0.002204297576099634,
+      "jump_speed_mae": 0.0,
+      "measured_seconds": 7.0,
+      "ground_variation_m": 1.4901161193847656e-08,
+      "failure_counts": {}
+    },
+    "flat_drive_0.0_gas100": {
+      "force_per_side_N": 100,
+      "mode": "drive",
+      "speed": 0.0,
+      "terrain": 0,
+      "motor_peak_Nm": 30.0,
+      "leg_saturation_fraction": 0.0005555555690079927,
+      "passed": true,
+      "original_criteria_passed": true,
+      "phase_speed_mae": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "phase_min_speed_retention": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phase_samples": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "success_fraction": 1.0,
+      "survival_fraction": 1.0,
+      "tracking_fraction": 0.9899999499320984,
+      "speed_mae": 0.011557486839592457,
+      "yaw_mae": 0.023326026275753975,
+      "tilt_deg": 0.2656806409358978,
+      "height_mae": 0.0091157928109169,
+      "high_latency_s": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "high_peak_m": 0.0,
+      "min_body_to_wheel_m": 0.0,
+      "body_rise_m": 0.0,
+      "jump_clearance_m": 0.0,
+      "airtime_s": 0.0,
+      "takeoff_vz": 0.0,
+      "jump_trigger_forward_mps": -0.001551903784275055,
+      "jump_speed_mae": 0.0,
+      "measured_seconds": 7.0,
+      "ground_variation_m": 1.4901161193847656e-08,
+      "failure_counts": {}
+    },
+    "flat_drive_0.0_gas200": {
+      "force_per_side_N": 200,
+      "mode": "drive",
+      "speed": 0.0,
+      "terrain": 0,
+      "motor_peak_Nm": 21.693710327148438,
+      "leg_saturation_fraction": 0.0,
+      "passed": true,
+      "original_criteria_passed": true,
+      "phase_speed_mae": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "phase_min_speed_retention": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phase_samples": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "success_fraction": 1.0,
+      "survival_fraction": 1.0,
+      "tracking_fraction": 0.9900000095367432,
+      "speed_mae": 0.011347758583724499,
+      "yaw_mae": 0.022201279178261757,
+      "tilt_deg": 0.24890843033790588,
+      "height_mae": 0.011222049593925476,
+      "high_latency_s": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "high_peak_m": 0.0,
+      "min_body_to_wheel_m": 0.0,
+      "body_rise_m": 0.0,
+      "jump_clearance_m": 0.0,
+      "airtime_s": 0.0,
+      "takeoff_vz": 0.0,
+      "jump_trigger_forward_mps": 0.0009543726919218898,
+      "jump_speed_mae": 0.0,
+      "measured_seconds": 7.0,
+      "ground_variation_m": 1.4901161193847656e-08,
+      "failure_counts": {}
+    },
+    "flat_drive_0.0_gas300": {
+      "force_per_side_N": 300,
+      "mode": "drive",
+      "speed": 0.0,
+      "terrain": 0,
+      "motor_peak_Nm": 18.103076934814453,
+      "leg_saturation_fraction": 0.0,
+      "passed": true,
+      "original_criteria_passed": true,
+      "phase_speed_mae": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "phase_min_speed_retention": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phase_samples": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "success_fraction": 1.0,
+      "survival_fraction": 1.0,
+      "tracking_fraction": 0.9900000095367432,
+      "speed_mae": 0.011185153387486935,
+      "yaw_mae": 0.02074858546257019,
+      "tilt_deg": 0.23470178246498108,
+      "height_mae": 0.014151315204799175,
+      "high_latency_s": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "high_peak_m": 0.0,
+      "min_body_to_wheel_m": 0.0,
+      "body_rise_m": 0.0,
+      "jump_clearance_m": 0.0,
+      "airtime_s": 0.0,
+      "takeoff_vz": 0.0,
+      "jump_trigger_forward_mps": 0.0014245056081563234,
+      "jump_speed_mae": 0.0,
+      "measured_seconds": 7.0,
+      "ground_variation_m": 1.4901161193847656e-08,
+      "failure_counts": {}
+    },
+    "flat_drive_1.3_gas0": {
+      "force_per_side_N": 0,
+      "mode": "drive",
+      "speed": 1.3,
+      "terrain": 0,
+      "motor_peak_Nm": 30.0,
+      "leg_saturation_fraction": 0.0011111111380159855,
+      "passed": true,
+      "original_criteria_passed": true,
+      "phase_speed_mae": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "phase_min_speed_retention": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phase_samples": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "success_fraction": 1.0,
+      "survival_fraction": 1.0,
+      "tracking_fraction": 1.0,
+      "speed_mae": 0.01975131779909134,
+      "yaw_mae": 0.10604807734489441,
+      "tilt_deg": 1.277793288230896,
+      "height_mae": 0.0006505028577521443,
+      "high_latency_s": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "high_peak_m": 0.0,
+      "min_body_to_wheel_m": 0.0,
+      "body_rise_m": 0.0,
+      "jump_clearance_m": 0.0,
+      "airtime_s": 0.0,
+      "takeoff_vz": 0.0,
+      "jump_trigger_forward_mps": 1.3154354095458984,
+      "jump_speed_mae": 0.0,
+      "measured_seconds": 7.0,
+      "ground_variation_m": 1.4901161193847656e-08,
+      "failure_counts": {}
+    },
+    "flat_drive_1.3_gas100": {
+      "force_per_side_N": 100,
+      "mode": "drive",
+      "speed": 1.3,
+      "terrain": 0,
+      "motor_peak_Nm": 30.0,
+      "leg_saturation_fraction": 0.0005555555690079927,
+      "passed": true,
+      "original_criteria_passed": true,
+      "phase_speed_mae": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "phase_min_speed_retention": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phase_samples": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "success_fraction": 1.0,
+      "survival_fraction": 1.0,
+      "tracking_fraction": 1.0,
+      "speed_mae": 0.01984059065580368,
+      "yaw_mae": 0.10434649884700775,
+      "tilt_deg": 1.3432767391204834,
+      "height_mae": 0.001868915045633912,
+      "high_latency_s": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "high_peak_m": 0.0,
+      "min_body_to_wheel_m": 0.0,
+      "body_rise_m": 0.0,
+      "jump_clearance_m": 0.0,
+      "airtime_s": 0.0,
+      "takeoff_vz": 0.0,
+      "jump_trigger_forward_mps": 1.3189997673034668,
+      "jump_speed_mae": 0.0,
+      "measured_seconds": 7.0,
+      "ground_variation_m": 1.4901161193847656e-08,
+      "failure_counts": {}
+    },
+    "flat_drive_1.3_gas200": {
+      "force_per_side_N": 200,
+      "mode": "drive",
+      "speed": 1.3,
+      "terrain": 0,
+      "motor_peak_Nm": 30.0,
+      "leg_saturation_fraction": 0.0005555555690079927,
+      "passed": true,
+      "original_criteria_passed": true,
+      "phase_speed_mae": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "phase_min_speed_retention": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phase_samples": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "success_fraction": 1.0,
+      "survival_fraction": 1.0,
+      "tracking_fraction": 1.0,
+      "speed_mae": 0.01939697377383709,
+      "yaw_mae": 0.10177840292453766,
+      "tilt_deg": 1.4006755352020264,
+      "height_mae": 0.003997610881924629,
+      "high_latency_s": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "high_peak_m": 0.0,
+      "min_body_to_wheel_m": 0.0,
+      "body_rise_m": 0.0,
+      "jump_clearance_m": 0.0,
+      "airtime_s": 0.0,
+      "takeoff_vz": 0.0,
+      "jump_trigger_forward_mps": 1.3140945434570312,
+      "jump_speed_mae": 0.0,
+      "measured_seconds": 7.0,
+      "ground_variation_m": 1.4901161193847656e-08,
+      "failure_counts": {}
+    },
+    "flat_drive_1.3_gas300": {
+      "force_per_side_N": 300,
+      "mode": "drive",
+      "speed": 1.3,
+      "terrain": 0,
+      "motor_peak_Nm": 29.92473793029785,
+      "leg_saturation_fraction": 0.0005555555690079927,
+      "passed": true,
+      "original_criteria_passed": true,
+      "phase_speed_mae": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "phase_min_speed_retention": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phase_samples": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "success_fraction": 1.0,
+      "survival_fraction": 1.0,
+      "tracking_fraction": 1.0,
+      "speed_mae": 0.018247384577989578,
+      "yaw_mae": 0.0999978706240654,
+      "tilt_deg": 1.457486867904663,
+      "height_mae": 0.006048470735549927,
+      "high_latency_s": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "high_peak_m": 0.0,
+      "min_body_to_wheel_m": 0.0,
+      "body_rise_m": 0.0,
+      "jump_clearance_m": 0.0,
+      "airtime_s": 0.0,
+      "takeoff_vz": 0.0,
+      "jump_trigger_forward_mps": 1.3196150064468384,
+      "jump_speed_mae": 0.0,
+      "measured_seconds": 7.0,
+      "ground_variation_m": 1.4901161193847656e-08,
+      "failure_counts": {}
+    },
+    "flat_high_0.0_gas0": {
+      "force_per_side_N": 0,
+      "mode": "high",
+      "speed": 0.0,
+      "terrain": 0,
+      "motor_peak_Nm": 26.00868797302246,
+      "leg_saturation_fraction": 0.0,
+      "passed": false,
+      "original_criteria_passed": false,
+      "phase_speed_mae": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "phase_min_speed_retention": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phase_samples": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "success_fraction": 0.75,
+      "survival_fraction": 1.0,
+      "tracking_fraction": 0.8258333802223206,
+      "speed_mae": 0.024191707372665405,
+      "yaw_mae": 0.029432935640215874,
+      "tilt_deg": 0.5365907549858093,
+      "height_mae": 0.006919259205460548,
+      "high_latency_s": [
+        0.2199999988079071,
+        0.18000000715255737,
+        0.20000000298023224,
+        0.20000000298023224
+      ],
+      "high_peak_m": 0.2929666042327881,
+      "min_body_to_wheel_m": 0.0,
+      "body_rise_m": 0.0,
+      "jump_clearance_m": 0.0,
+      "airtime_s": 0.0,
+      "takeoff_vz": 0.0,
+      "jump_trigger_forward_mps": 0.043371692299842834,
+      "jump_speed_mae": 0.0,
+      "measured_seconds": 6.0,
+      "ground_variation_m": 1.4901161193847656e-08,
+      "failure_counts": {}
+    },
+    "flat_high_0.0_gas100": {
+      "force_per_side_N": 100,
+      "mode": "high",
+      "speed": 0.0,
+      "terrain": 0,
+      "motor_peak_Nm": 30.0,
+      "leg_saturation_fraction": 0.0005555555690079927,
+      "passed": false,
+      "original_criteria_passed": false,
+      "phase_speed_mae": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "phase_min_speed_retention": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phase_samples": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "success_fraction": 0.5,
+      "survival_fraction": 1.0,
+      "tracking_fraction": 0.7825000286102295,
+      "speed_mae": 0.02348906919360161,
+      "yaw_mae": 0.025983547791838646,
+      "tilt_deg": 0.5111133456230164,
+      "height_mae": 0.00946083664894104,
+      "high_latency_s": [
+        0.1599999964237213,
+        0.18000000715255737,
+        0.1599999964237213,
+        0.1599999964237213
+      ],
+      "high_peak_m": 0.29671117663383484,
+      "min_body_to_wheel_m": 0.0,
+      "body_rise_m": 0.0,
+      "jump_clearance_m": 0.0,
+      "airtime_s": 0.0,
+      "takeoff_vz": 0.0,
+      "jump_trigger_forward_mps": 0.04002907872200012,
+      "jump_speed_mae": 0.0,
+      "measured_seconds": 6.0,
+      "ground_variation_m": 1.4901161193847656e-08,
+      "failure_counts": {}
+    },
+    "flat_high_0.0_gas200": {
+      "force_per_side_N": 200,
+      "mode": "high",
+      "speed": 0.0,
+      "terrain": 0,
+      "motor_peak_Nm": 21.870784759521484,
+      "leg_saturation_fraction": 0.0,
+      "passed": false,
+      "original_criteria_passed": false,
+      "phase_speed_mae": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "phase_min_speed_retention": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phase_samples": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "success_fraction": 0.0,
+      "survival_fraction": 1.0,
+      "tracking_fraction": 0.7300000190734863,
+      "speed_mae": 0.02656932920217514,
+      "yaw_mae": 0.028222311288118362,
+      "tilt_deg": 0.48581463098526,
+      "height_mae": 0.011582892388105392,
+      "high_latency_s": [
+        0.1599999964237213,
+        0.1599999964237213,
+        0.18000000715255737,
+        0.18000000715255737
+      ],
+      "high_peak_m": 0.30008023977279663,
+      "min_body_to_wheel_m": 0.0,
+      "body_rise_m": 0.0,
+      "jump_clearance_m": 0.0,
+      "airtime_s": 0.0,
+      "takeoff_vz": 0.0,
+      "jump_trigger_forward_mps": 0.031038040295243263,
+      "jump_speed_mae": 0.0,
+      "measured_seconds": 6.0,
+      "ground_variation_m": 1.4901161193847656e-08,
+      "failure_counts": {}
+    },
+    "flat_high_0.0_gas300": {
+      "force_per_side_N": 300,
+      "mode": "high",
+      "speed": 0.0,
+      "terrain": 0,
+      "motor_peak_Nm": 18.103076934814453,
+      "leg_saturation_fraction": 0.0,
+      "passed": false,
+      "original_criteria_passed": false,
+      "phase_speed_mae": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "phase_min_speed_retention": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phase_samples": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "success_fraction": 0.0,
+      "survival_fraction": 1.0,
+      "tracking_fraction": 0.7083333730697632,
+      "speed_mae": 0.027654675766825676,
+      "yaw_mae": 0.0278135035187006,
+      "tilt_deg": 0.47411149740219116,
+      "height_mae": 0.014042629860341549,
+      "high_latency_s": [
+        0.14000000059604645,
+        0.1599999964237213,
+        0.14000000059604645,
+        0.1599999964237213
+      ],
+      "high_peak_m": 0.30291080474853516,
+      "min_body_to_wheel_m": 0.0,
+      "body_rise_m": 0.0,
+      "jump_clearance_m": 0.0,
+      "airtime_s": 0.0,
+      "takeoff_vz": 0.0,
+      "jump_trigger_forward_mps": 0.05332045257091522,
+      "jump_speed_mae": 0.0,
+      "measured_seconds": 6.0,
+      "ground_variation_m": 1.4901161193847656e-08,
+      "failure_counts": {}
+    },
+    "flat_jump_0.0_gas0": {
+      "force_per_side_N": 0,
+      "mode": "jump",
+      "speed": 0.0,
+      "terrain": 0,
+      "motor_peak_Nm": 30.0,
+      "leg_saturation_fraction": 0.03058340959250927,
+      "passed": false,
+      "original_criteria_passed": false,
+      "phase_speed_mae": [
+        0.04620610550045967,
+        0.113949254155159,
+        0.06956306099891663,
+        0.12715265154838562
+      ],
+      "phase_min_speed_retention": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phase_samples": [
+        76.0,
+        29.0,
+        24.0,
+        62.0
+      ],
+      "success_fraction": 0.25,
+      "survival_fraction": 0.25,
+      "tracking_fraction": 0.25,
+      "speed_mae": 0.0042745149694383144,
+      "yaw_mae": 0.01990034431219101,
+      "tilt_deg": 0.2861380875110626,
+      "height_mae": 0.001430262578651309,
+      "high_latency_s": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "high_peak_m": 0.0,
+      "min_body_to_wheel_m": 0.058213021606206894,
+      "body_rise_m": 0.05850191041827202,
+      "jump_clearance_m": 0.08499876409769058,
+      "airtime_s": 0.11999998241662979,
+      "takeoff_vz": 1.1901308298110962,
+      "jump_trigger_forward_mps": -0.012900471687316895,
+      "jump_speed_mae": 0.06609342247247696,
+      "measured_seconds": 0.5,
+      "ground_variation_m": 3.725290298461914e-09,
+      "failure_counts": {
+        "nonwheel_contact": 3
+      }
+    },
+    "flat_jump_0.0_gas100": {
+      "force_per_side_N": 100,
+      "mode": "jump",
+      "speed": 0.0,
+      "terrain": 0,
+      "motor_peak_Nm": 30.0,
+      "leg_saturation_fraction": 0.038054563105106354,
+      "passed": false,
+      "original_criteria_passed": false,
+      "phase_speed_mae": [
+        0.041695334017276764,
+        0.14528046548366547,
+        0.12620800733566284,
+        0.1258111596107483
+      ],
+      "phase_min_speed_retention": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phase_samples": [
+        76.0,
+        32.0,
+        52.0,
+        2.0
+      ],
+      "success_fraction": 0.0,
+      "survival_fraction": 0.0,
+      "tracking_fraction": 0.0,
+      "speed_mae": 0.0,
+      "yaw_mae": 0.0,
+      "tilt_deg": 0.0,
+      "height_mae": 0.0,
+      "high_latency_s": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "high_peak_m": 0.0,
+      "min_body_to_wheel_m": 0.10279478132724762,
+      "body_rise_m": 0.11923512816429138,
+      "jump_clearance_m": 0.18741965293884277,
+      "airtime_s": 0.25499996542930603,
+      "takeoff_vz": 1.4618792533874512,
+      "jump_trigger_forward_mps": 0.010444545187056065,
+      "jump_speed_mae": 0.07811009138822556,
+      "measured_seconds": 0.0,
+      "ground_variation_m": 0.0,
+      "failure_counts": {
+        "nonwheel_contact": 4
+      }
+    },
+    "flat_jump_0.0_gas200": {
+      "force_per_side_N": 200,
+      "mode": "jump",
+      "speed": 0.0,
+      "terrain": 0,
+      "motor_peak_Nm": 30.0,
+      "leg_saturation_fraction": 0.04581151902675629,
+      "passed": false,
+      "original_criteria_passed": false,
+      "phase_speed_mae": [
+        0.04685624688863754,
+        0.17990753054618835,
+        0.16933536529541016,
+        0.23215742409229279
+      ],
+      "phase_min_speed_retention": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phase_samples": [
+        76.0,
+        28.0,
+        57.0,
+        3.0
+      ],
+      "success_fraction": 0.0,
+      "survival_fraction": 0.0,
+      "tracking_fraction": 0.0,
+      "speed_mae": 0.0,
+      "yaw_mae": 0.0,
+      "tilt_deg": 0.0,
+      "height_mae": 0.0,
+      "high_latency_s": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "high_peak_m": 0.0,
+      "min_body_to_wheel_m": 0.09355485439300537,
+      "body_rise_m": 0.14545825123786926,
+      "jump_clearance_m": 0.22850900888442993,
+      "airtime_s": 0.2749999761581421,
+      "takeoff_vz": 1.5888006687164307,
+      "jump_trigger_forward_mps": -0.011050919070839882,
+      "jump_speed_mae": 0.11087711155414581,
+      "measured_seconds": 0.0,
+      "ground_variation_m": 0.0,
+      "failure_counts": {
+        "nonwheel_contact": 4
+      }
+    },
+    "flat_jump_0.0_gas300": {
+      "force_per_side_N": 300,
+      "mode": "jump",
+      "speed": 0.0,
+      "terrain": 0,
+      "motor_peak_Nm": 30.0,
+      "leg_saturation_fraction": 0.03647442162036896,
+      "passed": false,
+      "original_criteria_passed": false,
+      "phase_speed_mae": [
+        0.049859222024679184,
+        0.1262497752904892,
+        0.12057123333215714,
+        0.22874335944652557
+      ],
+      "phase_min_speed_retention": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phase_samples": [
+        76.0,
+        28.0,
+        57.0,
+        124.0
+      ],
+      "success_fraction": 0.5,
+      "survival_fraction": 0.5,
+      "tracking_fraction": 0.5,
+      "speed_mae": 0.005649430677294731,
+      "yaw_mae": 0.032143235206604004,
+      "tilt_deg": 0.5822962522506714,
+      "height_mae": 0.0007253652438521385,
+      "high_latency_s": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "high_peak_m": 0.0,
+      "min_body_to_wheel_m": 0.09173248708248138,
+      "body_rise_m": 0.1561465859413147,
+      "jump_clearance_m": 0.24396510422229767,
+      "airtime_s": 0.2799999713897705,
+      "takeoff_vz": 1.7110037803649902,
+      "jump_trigger_forward_mps": 0.0036763569805771112,
+      "jump_speed_mae": 0.11163382232189178,
+      "measured_seconds": 1.0,
+      "ground_variation_m": 7.450580596923828e-09,
+      "failure_counts": {
+        "nonwheel_contact": 2
+      }
+    },
+    "flat_jump_0.5_gas0": {
+      "force_per_side_N": 0,
+      "mode": "jump",
+      "speed": 0.5,
+      "terrain": 0,
+      "motor_peak_Nm": 30.0,
+      "leg_saturation_fraction": 0.024362295866012573,
+      "passed": false,
+      "original_criteria_passed": false,
+      "phase_speed_mae": [
+        0.04349883273243904,
+        0.07120481133460999,
+        0.08256743848323822,
+        0.0823087990283966
+      ],
+      "phase_min_speed_retention": [
+        0.9202548265457153,
+        0.8244057297706604,
+        0.803321123123169,
+        0.39361968636512756
+      ],
+      "phase_samples": [
+        57.0,
+        24.0,
+        36.0,
+        62.0
+      ],
+      "success_fraction": 0.0,
+      "survival_fraction": 0.5,
+      "tracking_fraction": 0.5,
+      "speed_mae": 0.007395494729280472,
+      "yaw_mae": 0.042436257004737854,
+      "tilt_deg": 0.606165885925293,
+      "height_mae": 0.002868467941880226,
+      "high_latency_s": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "high_peak_m": 0.0,
+      "min_body_to_wheel_m": 0.09434465318918228,
+      "body_rise_m": 0.08773047477006912,
+      "jump_clearance_m": 0.11997189372777939,
+      "airtime_s": 0.17999997735023499,
+      "takeoff_vz": 1.0108871459960938,
+      "jump_trigger_forward_mps": 0.4899711608886719,
+      "jump_speed_mae": 0.04780270904302597,
+      "measured_seconds": 1.0,
+      "ground_variation_m": 7.450580596923828e-09,
+      "failure_counts": {
+        "nonwheel_contact": 2
+      }
+    },
+    "flat_jump_0.5_gas100": {
+      "force_per_side_N": 100,
+      "mode": "jump",
+      "speed": 0.5,
+      "terrain": 0,
+      "motor_peak_Nm": 30.0,
+      "leg_saturation_fraction": 0.021666666492819786,
+      "passed": false,
+      "original_criteria_passed": true,
+      "phase_speed_mae": [
+        0.0487527996301651,
+        0.09715163707733154,
+        0.09122215211391449,
+        0.2898294925689697
+      ],
+      "phase_min_speed_retention": [
+        0.947239100933075,
+        0.6882741451263428,
+        0.7804420590400696,
+        0.4145359992980957
+      ],
+      "phase_samples": [
+        76.0,
+        31.0,
+        49.0,
+        244.0
+      ],
+      "success_fraction": 0.0,
+      "survival_fraction": 1.0,
+      "tracking_fraction": 1.0,
+      "speed_mae": 0.018263213336467743,
+      "yaw_mae": 0.09364581108093262,
+      "tilt_deg": 1.7460354566574097,
+      "height_mae": 0.006133396178483963,
+      "high_latency_s": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "high_peak_m": 0.0,
+      "min_body_to_wheel_m": 0.13274124264717102,
+      "body_rise_m": 0.13287372887134552,
+      "jump_clearance_m": 0.17393578588962555,
+      "airtime_s": 0.2449999749660492,
+      "takeoff_vz": 1.4376990795135498,
+      "jump_trigger_forward_mps": 0.4984728693962097,
+      "jump_speed_mae": 0.11173346638679504,
+      "measured_seconds": 2.0,
+      "ground_variation_m": 1.4901161193847656e-08,
+      "failure_counts": {}
+    },
+    "flat_jump_0.5_gas200": {
+      "force_per_side_N": 200,
+      "mode": "jump",
+      "speed": 0.5,
+      "terrain": 0,
+      "motor_peak_Nm": 30.0,
+      "leg_saturation_fraction": 0.024210525676608086,
+      "passed": false,
+      "original_criteria_passed": false,
+      "phase_speed_mae": [
+        0.04345247894525528,
+        0.09196117520332336,
+        0.10700342804193497,
+        0.2921600937843323
+      ],
+      "phase_min_speed_retention": [
+        0.8932326436042786,
+        0.760807454586029,
+        0.5285385251045227,
+        0.3853320777416229
+      ],
+      "phase_samples": [
+        76.0,
+        28.0,
+        53.0,
+        183.0
+      ],
+      "success_fraction": 0.0,
+      "survival_fraction": 0.75,
+      "tracking_fraction": 0.75,
+      "speed_mae": 0.011939499527215958,
+      "yaw_mae": 0.06856396049261093,
+      "tilt_deg": 1.328953742980957,
+      "height_mae": 0.002945831511169672,
+      "high_latency_s": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "high_peak_m": 0.0,
+      "min_body_to_wheel_m": 0.11943063884973526,
+      "body_rise_m": 0.14557698369026184,
+      "jump_clearance_m": 0.20297878980636597,
+      "airtime_s": 0.25999996066093445,
+      "takeoff_vz": 1.5709099769592285,
+      "jump_trigger_forward_mps": 0.505814790725708,
+      "jump_speed_mae": 0.12473374605178833,
+      "measured_seconds": 1.5,
+      "ground_variation_m": 1.1175870895385742e-08,
+      "failure_counts": {
+        "nonwheel_contact": 1
+      }
+    },
+    "flat_jump_0.5_gas300": {
+      "force_per_side_N": 300,
+      "mode": "jump",
+      "speed": 0.5,
+      "terrain": 0,
+      "motor_peak_Nm": 30.0,
+      "leg_saturation_fraction": 0.023333333432674408,
+      "passed": false,
+      "original_criteria_passed": true,
+      "phase_speed_mae": [
+        0.055528271943330765,
+        0.10811996459960938,
+        0.13079996407032013,
+        0.4512854218482971
+      ],
+      "phase_min_speed_retention": [
+        0.8612922430038452,
+        0.6560182571411133,
+        0.2497178614139557,
+        0.16143377125263214
+      ],
+      "phase_samples": [
+        76.0,
+        25.0,
+        57.0,
+        244.0
+      ],
+      "success_fraction": 0.0,
+      "survival_fraction": 1.0,
+      "tracking_fraction": 1.0,
+      "speed_mae": 0.015581809915602207,
+      "yaw_mae": 0.08733253180980682,
+      "tilt_deg": 1.8111157417297363,
+      "height_mae": 0.001705129980109632,
+      "high_latency_s": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "high_peak_m": 0.0,
+      "min_body_to_wheel_m": 0.10248732566833496,
+      "body_rise_m": 0.16035789251327515,
+      "jump_clearance_m": 0.2361593395471573,
+      "airtime_s": 0.2799999713897705,
+      "takeoff_vz": 1.6417837142944336,
+      "jump_trigger_forward_mps": 0.4990583658218384,
+      "jump_speed_mae": 0.17585629224777222,
+      "measured_seconds": 2.0,
+      "ground_variation_m": 1.4901161193847656e-08,
+      "failure_counts": {}
+    },
+    "flat_jump_1.0_gas0": {
+      "force_per_side_N": 0,
+      "mode": "jump",
+      "speed": 1.0,
+      "terrain": 0,
+      "motor_peak_Nm": 30.0,
+      "leg_saturation_fraction": 0.039515454322099686,
+      "passed": false,
+      "original_criteria_passed": false,
+      "phase_speed_mae": [
+        0.11153800040483475,
+        0.28832992911338806,
+        0.5459457039833069,
+        0.17091411352157593
+      ],
+      "phase_min_speed_retention": [
+        0.9200938940048218,
+        1.0,
+        1.0,
+        0.9787642359733582
+      ],
+      "phase_samples": [
+        76.0,
+        33.0,
+        46.0,
+        4.0
+      ],
+      "success_fraction": 0.0,
+      "survival_fraction": 0.0,
+      "tracking_fraction": 0.0,
+      "speed_mae": 0.0,
+      "yaw_mae": 0.0,
+      "tilt_deg": 0.0,
+      "height_mae": 0.0,
+      "high_latency_s": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "high_peak_m": 0.0,
+      "min_body_to_wheel_m": 0.15564587712287903,
+      "body_rise_m": 0.11811865866184235,
+      "jump_clearance_m": 0.1198764517903328,
+      "airtime_s": 0.22499996423721313,
+      "takeoff_vz": 1.1771571636199951,
+      "jump_trigger_forward_mps": 1.0183607339859009,
+      "jump_speed_mae": 0.22992590069770813,
+      "measured_seconds": 0.0,
+      "ground_variation_m": 0.0,
+      "failure_counts": {
+        "nonwheel_contact": 4
+      }
+    },
+    "flat_jump_1.0_gas100": {
+      "force_per_side_N": 100,
+      "mode": "jump",
+      "speed": 1.0,
+      "terrain": 0,
+      "motor_peak_Nm": 30.0,
+      "leg_saturation_fraction": 0.02885965071618557,
+      "passed": false,
+      "original_criteria_passed": false,
+      "phase_speed_mae": [
+        0.1119605302810669,
+        0.2537916600704193,
+        0.49246928095817566,
+        0.37023109197616577
+      ],
+      "phase_min_speed_retention": [
+        0.8611855506896973,
+        1.0,
+        1.0,
+        0.9571437239646912
+      ],
+      "phase_samples": [
+        76.0,
+        28.0,
+        49.0,
+        185.0
+      ],
+      "success_fraction": 0.0,
+      "survival_fraction": 0.75,
+      "tracking_fraction": 0.75,
+      "speed_mae": 0.009569821879267693,
+      "yaw_mae": 0.0840797871351242,
+      "tilt_deg": 1.7113690376281738,
+      "height_mae": 0.0055242981761693954,
+      "high_latency_s": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "high_peak_m": 0.0,
+      "min_body_to_wheel_m": 0.14914360642433167,
+      "body_rise_m": 0.12781791388988495,
+      "jump_clearance_m": 0.14448171854019165,
+      "airtime_s": 0.23999996483325958,
+      "takeoff_vz": 1.3080687522888184,
+      "jump_trigger_forward_mps": 1.0080262422561646,
+      "jump_speed_mae": 0.2038402259349823,
+      "measured_seconds": 1.5,
+      "ground_variation_m": 1.1175870895385742e-08,
+      "failure_counts": {
+        "nonwheel_contact": 1
+      }
+    },
+    "flat_jump_1.0_gas200": {
+      "force_per_side_N": 200,
+      "mode": "jump",
+      "speed": 1.0,
+      "terrain": 0,
+      "motor_peak_Nm": 30.0,
+      "leg_saturation_fraction": 0.020203284919261932,
+      "passed": false,
+      "original_criteria_passed": false,
+      "phase_speed_mae": [
+        0.10875074565410614,
+        0.2756684124469757,
+        0.5093766450881958,
+        0.3916987180709839
+      ],
+      "phase_min_speed_retention": [
+        0.9034629464149475,
+        1.0,
+        1.0,
+        0.9956483840942383
+      ],
+      "phase_samples": [
+        76.0,
+        28.0,
+        50.0,
+        124.0
+      ],
+      "success_fraction": 0.0,
+      "survival_fraction": 0.5,
+      "tracking_fraction": 0.5,
+      "speed_mae": 0.006615969352424145,
+      "yaw_mae": 0.0546829029917717,
+      "tilt_deg": 1.1693675518035889,
+      "height_mae": 0.002502809278666973,
+      "high_latency_s": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "high_peak_m": 0.0,
+      "min_body_to_wheel_m": 0.14430205523967743,
+      "body_rise_m": 0.13588276505470276,
+      "jump_clearance_m": 0.1557653844356537,
+      "airtime_s": 0.23999996483325958,
+      "takeoff_vz": 1.4098162651062012,
+      "jump_trigger_forward_mps": 1.0094088315963745,
+      "jump_speed_mae": 0.22481468319892883,
+      "measured_seconds": 1.0,
+      "ground_variation_m": 7.450580596923828e-09,
+      "failure_counts": {
+        "nonwheel_contact": 2
+      }
+    },
+    "flat_jump_1.0_gas300": {
+      "force_per_side_N": 300,
+      "mode": "jump",
+      "speed": 1.0,
+      "terrain": 0,
+      "motor_peak_Nm": 30.0,
+      "leg_saturation_fraction": 0.028042327612638474,
+      "passed": false,
+      "original_criteria_passed": false,
+      "phase_speed_mae": [
+        0.09761179983615875,
+        0.2205994725227356,
+        0.4178885221481323,
+        0.3285137414932251
+      ],
+      "phase_min_speed_retention": [
+        0.9196488261222839,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phase_samples": [
+        57.0,
+        18.0,
+        39.0,
+        63.0
+      ],
+      "success_fraction": 0.0,
+      "survival_fraction": 0.5,
+      "tracking_fraction": 0.5,
+      "speed_mae": 0.007245935034006834,
+      "yaw_mae": 0.049480192363262177,
+      "tilt_deg": 0.8967101573944092,
+      "height_mae": 0.0024078339338302612,
+      "high_latency_s": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "high_peak_m": 0.0,
+      "min_body_to_wheel_m": 0.10159099102020264,
+      "body_rise_m": 0.10347972810268402,
+      "jump_clearance_m": 0.12389116734266281,
+      "airtime_s": 0.19499996304512024,
+      "takeoff_vz": 1.0644397735595703,
+      "jump_trigger_forward_mps": 1.0046530961990356,
+      "jump_speed_mae": 0.20491981506347656,
+      "measured_seconds": 1.0,
+      "ground_variation_m": 7.450580596923828e-09,
+      "failure_counts": {
+        "nonwheel_contact": 2
+      }
+    },
+    "flat_jump_1.5_gas0": {
+      "force_per_side_N": 0,
+      "mode": "jump",
+      "speed": 1.5,
+      "terrain": 0,
+      "motor_peak_Nm": 30.0,
+      "leg_saturation_fraction": 0.05819738656282425,
+      "passed": false,
+      "original_criteria_passed": false,
+      "phase_speed_mae": [
+        0.1605522632598877,
+        0.37505093216896057,
+        0.7121110558509827,
+        0.4385039210319519
+      ],
+      "phase_min_speed_retention": [
+        0.8526662588119507,
+        1.0,
+        1.0,
+        0.7098970413208008
+      ],
+      "phase_samples": [
+        76.0,
+        35.0,
+        47.0,
+        102.0
+      ],
+      "success_fraction": 0.0,
+      "survival_fraction": 0.25,
+      "tracking_fraction": 0.25,
+      "speed_mae": 0.0019456293666735291,
+      "yaw_mae": 0.029303036630153656,
+      "tilt_deg": 0.6758205890655518,
+      "height_mae": 0.0022817582357674837,
+      "high_latency_s": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "high_peak_m": 0.0,
+      "min_body_to_wheel_m": 0.14766237139701843,
+      "body_rise_m": 0.11972644925117493,
+      "jump_clearance_m": 0.1227651834487915,
+      "airtime_s": 0.22999995946884155,
+      "takeoff_vz": 1.1460752487182617,
+      "jump_trigger_forward_mps": 1.5222063064575195,
+      "jump_speed_mae": 0.2728893756866455,
+      "measured_seconds": 0.5,
+      "ground_variation_m": 3.725290298461914e-09,
+      "failure_counts": {
+        "nonwheel_contact": 3
+      }
+    },
+    "flat_jump_1.5_gas100": {
+      "force_per_side_N": 100,
+      "mode": "jump",
+      "speed": 1.5,
+      "terrain": 0,
+      "motor_peak_Nm": 30.0,
+      "leg_saturation_fraction": 0.027719298377633095,
+      "passed": false,
+      "original_criteria_passed": false,
+      "phase_speed_mae": [
+        0.11987544596195221,
+        0.29450681805610657,
+        0.5764522552490234,
+        0.17750555276870728
+      ],
+      "phase_min_speed_retention": [
+        0.882760226726532,
+        1.0,
+        1.0,
+        0.9100437760353088
+      ],
+      "phase_samples": [
+        57.0,
+        24.0,
+        37.0,
+        62.0
+      ],
+      "success_fraction": 0.0,
+      "survival_fraction": 0.5,
+      "tracking_fraction": 0.5,
+      "speed_mae": 0.007724468130618334,
+      "yaw_mae": 0.056342221796512604,
+      "tilt_deg": 1.0853121280670166,
+      "height_mae": 0.0022597946226596832,
+      "high_latency_s": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "high_peak_m": 0.0,
+      "min_body_to_wheel_m": 0.12973037362098694,
+      "body_rise_m": 0.09803597629070282,
+      "jump_clearance_m": 0.09183965623378754,
+      "airtime_s": 0.17999997735023499,
+      "takeoff_vz": 0.9843870997428894,
+      "jump_trigger_forward_mps": 1.5190954208374023,
+      "jump_speed_mae": 0.21628105640411377,
+      "measured_seconds": 1.0,
+      "ground_variation_m": 7.450580596923828e-09,
+      "failure_counts": {
+        "nonwheel_contact": 2
+      }
+    },
+    "flat_jump_1.5_gas200": {
+      "force_per_side_N": 200,
+      "mode": "jump",
+      "speed": 1.5,
+      "terrain": 0,
+      "motor_peak_Nm": 30.0,
+      "leg_saturation_fraction": 0.04102756828069687,
+      "passed": false,
+      "original_criteria_passed": false,
+      "phase_speed_mae": [
+        0.1598759889602661,
+        0.32873934507369995,
+        0.710995078086853,
+        0.45772868394851685
+      ],
+      "phase_min_speed_retention": [
+        0.8547581434249878,
+        1.0,
+        1.0,
+        0.9403572082519531
+      ],
+      "phase_samples": [
+        76.0,
+        28.0,
+        50.0,
+        124.0
+      ],
+      "success_fraction": 0.0,
+      "survival_fraction": 0.5,
+      "tracking_fraction": 0.5,
+      "speed_mae": 0.0026996061205863953,
+      "yaw_mae": 0.056658387184143066,
+      "tilt_deg": 1.4201178550720215,
+      "height_mae": 0.0023265203926712275,
+      "high_latency_s": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "high_peak_m": 0.0,
+      "min_body_to_wheel_m": 0.1511656939983368,
+      "body_rise_m": 0.12914802134037018,
+      "jump_clearance_m": 0.1400032937526703,
+      "airtime_s": 0.2449999749660492,
+      "takeoff_vz": 1.3301242589950562,
+      "jump_trigger_forward_mps": 1.524739146232605,
+      "jump_speed_mae": 0.2679818868637085,
+      "measured_seconds": 1.0,
+      "ground_variation_m": 7.450580596923828e-09,
+      "failure_counts": {
+        "nonwheel_contact": 2
+      }
+    },
+    "flat_jump_1.5_gas300": {
+      "force_per_side_N": 300,
+      "mode": "jump",
+      "speed": 1.5,
+      "terrain": 0,
+      "motor_peak_Nm": 30.0,
+      "leg_saturation_fraction": 0.0277889184653759,
+      "passed": false,
+      "original_criteria_passed": false,
+      "phase_speed_mae": [
+        0.13537009060382843,
+        0.32315847277641296,
+        0.570340096950531,
+        0.3714827299118042
+      ],
+      "phase_min_speed_retention": [
+        0.9171234965324402,
+        1.0,
+        1.0,
+        0.663267195224762
+      ],
+      "phase_samples": [
+        57.0,
+        21.0,
+        37.0,
+        63.0
+      ],
+      "success_fraction": 0.0,
+      "survival_fraction": 0.5,
+      "tracking_fraction": 0.5,
+      "speed_mae": 0.007918953895568848,
+      "yaw_mae": 0.052619826048612595,
+      "tilt_deg": 1.132000207901001,
+      "height_mae": 0.0021960660815238953,
+      "high_latency_s": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "high_peak_m": 0.0,
+      "min_body_to_wheel_m": 0.125431090593338,
+      "body_rise_m": 0.10591302812099457,
+      "jump_clearance_m": 0.10610517114400864,
+      "airtime_s": 0.17999997735023499,
+      "takeoff_vz": 1.1065438985824585,
+      "jump_trigger_forward_mps": 1.5242664813995361,
+      "jump_speed_mae": 0.2386220395565033,
+      "measured_seconds": 1.0,
+      "ground_variation_m": 7.450580596923828e-09,
+      "failure_counts": {
+        "nonwheel_contact": 2
+      }
+    },
+    "flat_brake_2_gas0": {
+      "force_per_side_N": 0,
+      "mode": "brake",
+      "speed": 2.0,
+      "terrain": 0,
+      "motor_peak_Nm": 30.0,
+      "leg_saturation_fraction": 0.015231652185320854,
+      "passed": false,
+      "original_criteria_passed": false,
+      "phase_speed_mae": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "phase_min_speed_retention": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phase_samples": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "success_fraction": 0.25,
+      "survival_fraction": 0.25,
+      "tracking_fraction": 0.25,
+      "speed_mae": 0.003900970797985792,
+      "yaw_mae": 0.004654220771044493,
+      "tilt_deg": 0.04888908937573433,
+      "height_mae": 0.002298243809491396,
+      "high_latency_s": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "high_peak_m": 0.0,
+      "min_body_to_wheel_m": 0.0,
+      "body_rise_m": 0.0,
+      "jump_clearance_m": 0.0,
+      "airtime_s": 0.0,
+      "takeoff_vz": 0.0,
+      "jump_trigger_forward_mps": 2.0344085693359375,
+      "jump_speed_mae": 0.0,
+      "measured_seconds": 0.5,
+      "ground_variation_m": 3.725290298461914e-09,
+      "failure_counts": {
+        "bad_pose": 3
+      }
+    },
+    "flat_brake_2_gas100": {
+      "force_per_side_N": 100,
+      "mode": "brake",
+      "speed": 2.0,
+      "terrain": 0,
+      "motor_peak_Nm": 30.0,
+      "leg_saturation_fraction": 0.00476376386359334,
+      "passed": false,
+      "original_criteria_passed": false,
+      "phase_speed_mae": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "phase_min_speed_retention": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phase_samples": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "success_fraction": 0.0,
+      "survival_fraction": 0.0,
+      "tracking_fraction": 0.0,
+      "speed_mae": 0.0,
+      "yaw_mae": 0.0,
+      "tilt_deg": 0.0,
+      "height_mae": 0.0,
+      "high_latency_s": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "high_peak_m": 0.0,
+      "min_body_to_wheel_m": 0.0,
+      "body_rise_m": 0.0,
+      "jump_clearance_m": 0.0,
+      "airtime_s": 0.0,
+      "takeoff_vz": 0.0,
+      "jump_trigger_forward_mps": 2.0307083129882812,
+      "jump_speed_mae": 0.0,
+      "measured_seconds": 0.0,
+      "ground_variation_m": 0.0,
+      "failure_counts": {
+        "bad_pose": 4
+      }
+    },
+    "flat_brake_2_gas200": {
+      "force_per_side_N": 200,
+      "mode": "brake",
+      "speed": 2.0,
+      "terrain": 0,
+      "motor_peak_Nm": 30.0,
+      "leg_saturation_fraction": 0.0009578543831594288,
+      "passed": false,
+      "original_criteria_passed": false,
+      "phase_speed_mae": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "phase_min_speed_retention": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phase_samples": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "success_fraction": 0.25,
+      "survival_fraction": 0.25,
+      "tracking_fraction": 0.25,
+      "speed_mae": 0.0018928335048258305,
+      "yaw_mae": 0.0026715570129454136,
+      "tilt_deg": 0.04238080978393555,
+      "height_mae": 0.003370598889887333,
+      "high_latency_s": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "high_peak_m": 0.0,
+      "min_body_to_wheel_m": 0.0,
+      "body_rise_m": 0.0,
+      "jump_clearance_m": 0.0,
+      "airtime_s": 0.0,
+      "takeoff_vz": 0.0,
+      "jump_trigger_forward_mps": 2.038576364517212,
+      "jump_speed_mae": 0.0,
+      "measured_seconds": 0.5,
+      "ground_variation_m": 3.725290298461914e-09,
+      "failure_counts": {
+        "bad_pose": 3
+      }
+    },
+    "flat_brake_2_gas300": {
+      "force_per_side_N": 300,
+      "mode": "brake",
+      "speed": 2.0,
+      "terrain": 0,
+      "motor_peak_Nm": 30.0,
+      "leg_saturation_fraction": 0.0033333334140479565,
+      "passed": true,
+      "original_criteria_passed": true,
+      "phase_speed_mae": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "phase_min_speed_retention": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phase_samples": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "success_fraction": 1.0,
+      "survival_fraction": 1.0,
+      "tracking_fraction": 1.0,
+      "speed_mae": 0.0069965459406375885,
+      "yaw_mae": 0.012527300976216793,
+      "tilt_deg": 0.18305271863937378,
+      "height_mae": 0.01586085557937622,
+      "high_latency_s": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "high_peak_m": 0.0,
+      "min_body_to_wheel_m": 0.0,
+      "body_rise_m": 0.0,
+      "jump_clearance_m": 0.0,
+      "airtime_s": 0.0,
+      "takeoff_vz": 0.0,
+      "jump_trigger_forward_mps": 2.028674364089966,
+      "jump_speed_mae": 0.0,
+      "measured_seconds": 2.0,
+      "ground_variation_m": 1.4901161193847656e-08,
+      "failure_counts": {}
+    }
+  },
+  "passed": 9
+}

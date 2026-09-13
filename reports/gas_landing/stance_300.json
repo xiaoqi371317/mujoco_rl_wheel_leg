@@ -1,0 +1,78 @@
+{
+  "force_per_side_N": 300.0,
+  "checkpoint": "redacted-source/model_3748.pt",
+  "seconds": 30,
+  "measured_after_s": 5,
+  "cases": {
+    "low": {
+      "pair_rad": 0.007691550068557262,
+      "wheel_dx_m": 0.000632796436548233,
+      "yaw_abs_rad_s": 0.008857429958879948,
+      "speed_m_s": 0.032044682651758194,
+      "height_error_m": 0.032693810760974884,
+      "tilt_rad": 0.0249467846006155,
+      "passed": false,
+      "pass_fraction": 0.0,
+      "survival": 1.0,
+      "max_heading_excursion_deg": [
+        11.56431770324707,
+        10.799991607666016,
+        11.258495330810547,
+        11.090338706970215
+      ]
+    },
+    "high": {
+      "pair_rad": 0.020140599459409714,
+      "wheel_dx_m": 0.006298725493252277,
+      "yaw_abs_rad_s": 0.01527415867894888,
+      "speed_m_s": 0.06246497482061386,
+      "height_error_m": 0.022786308079957962,
+      "tilt_rad": 0.0213820431381464,
+      "passed": false,
+      "pass_fraction": 0.0,
+      "survival": 1.0,
+      "max_heading_excursion_deg": [
+        0.6636902689933777,
+        0.5477965474128723,
+        0.7013018727302551,
+        1.9346911907196045
+      ]
+    },
+    "brake_low": {
+      "pair_rad": 0.005407417193055153,
+      "wheel_dx_m": 0.0006140810437500477,
+      "yaw_abs_rad_s": 0.009084208868443966,
+      "speed_m_s": 0.032490093261003494,
+      "height_error_m": 0.0329783633351326,
+      "tilt_rad": 0.024779386818408966,
+      "passed": false,
+      "pass_fraction": 0.0,
+      "survival": 1.0,
+      "max_heading_excursion_deg": [
+        12.43130874633789,
+        12.17245864868164,
+        12.22852897644043,
+        12.309783935546875
+      ]
+    },
+    "brake_high": {
+      "pair_rad": 0.015091530978679657,
+      "wheel_dx_m": 0.004719844553619623,
+      "yaw_abs_rad_s": 0.008065292611718178,
+      "speed_m_s": 0.04705846309661865,
+      "height_error_m": 0.01738900877535343,
+      "tilt_rad": 0.01609320566058159,
+      "passed": false,
+      "pass_fraction": 0.0,
+      "survival": 0.75,
+      "max_heading_excursion_deg": [
+        2.3375160694122314,
+        0.0,
+        3.271373748779297,
+        0.9646276235580444
+      ]
+    }
+  },
+  "passed": 0,
+  "gate_passed": false
+}

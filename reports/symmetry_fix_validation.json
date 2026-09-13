@@ -1,0 +1,35 @@
+{
+  "scope": "Symmetric inertias, joint kinematics and closure sites; original STL meshes retained.",
+  "reference": "Right-side linkage; pair-average mass; chassis projection about y=0.",
+  "originals_unchanged": true,
+  "models": [
+    {
+      "file": "infantry_V4\\meshes\\mjmodel_lqr_fix.xml",
+      "total_mass_kg": 18.705167000000003,
+      "chassis_mirror_symmetric": true,
+      "max_mirrored_com_error_m": 0.0,
+      "max_mirrored_inertia_error_kg_m2": 2.625802136488331e-19,
+      "max_mirrored_body_error_m": 0.0,
+      "max_mirrored_axis_error": 0.0,
+      "symmetric_configurations_tested": 21,
+      "positive_definite": true,
+      "triangle_inequality": true,
+      "home_closed_chain_error_m": 9.278189327943664e-12,
+      "smoke_steps": 50
+    },
+    {
+      "file": "infantry_rl\\robot\\xmls\\training_scene_fix.xml",
+      "total_mass_kg": 18.705167000000003,
+      "chassis_mirror_symmetric": true,
+      "max_mirrored_com_error_m": 0.0,
+      "max_mirrored_inertia_error_kg_m2": 1.5013658990082474e-19,
+      "max_mirrored_body_error_m": 0.0,
+      "max_mirrored_axis_error": 0.0,
+      "symmetric_configurations_tested": 21,
+      "positive_definite": true,
+      "triangle_inequality": true,
+      "home_closed_chain_error_m": 9.278189327943664e-12,
+      "smoke_steps": 50
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "pretrained/v5_motion/model_3250.pt": {
+    "iteration": 3250,
+    "optimizer_state_present": true
+  },
+  "pretrained/gas_landing/model_3748.pt": {
+    "iteration": 3748,
+    "optimizer_state_present": true
+  },
+  "pretrained/gas_adapt/model_3449.pt": {
+    "iteration": 3449,
+    "optimizer_state_present": true
+  },
+  "training_scene_fix.xml": {
+    "nq": 21,
+    "nu": 6
+  },
+  "training_scene_fix_gas_trial.xml": {
+    "nq": 21,
+    "nu": 8
+  },
+  "integrity": "passed",
+  "gas_smoke_exit": 0,
+  "v5_smoke": {
+    "state": "complete",
+    "additional_iterations": 2,
+    "elapsed_seconds": 10.541173219680786,
+    "transitions": 3072,
+    "final_checkpoint": "model_3251.pt"
+  },
+  "gas_smoke": {
+    "state": "complete",
+    "additional_iterations": 2,
+    "elapsed_seconds": 7.656826019287109,
+    "transitions": 3072,
+    "final_checkpoint": "model_3450.pt"
+  },
+  "v5_motion_viewer_start": true,
+  "gas_landing_viewer_start": true,
+  "validation_scope": "Existing pinned Linux GPU environment; isolated release copy; XML load, checkpoint load, 64-env two-iteration continuation and HTTP viewer initialization. No browser interaction or fresh dependency installation tested."
+}

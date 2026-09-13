@@ -1,0 +1,15 @@
+{
+  "before_passed": 9,
+  "after_passed": 8,
+  "new_passes": [
+    "flat_jump_1.5_gas0",
+    "flat_jump_1.5_gas200",
+    "flat_jump_1.5_gas300"
+  ],
+  "new_failures": [
+    "flat_drive_0.0_gas0",
+    "flat_drive_0.0_gas100",
+    "flat_drive_0.0_gas300",
+    "flat_brake_2_gas300"
+  ]
+}
