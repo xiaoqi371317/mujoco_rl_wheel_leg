@@ -1,0 +1,6 @@
+{
+  "v4": 0,
+  "fast": 0,
+  "v5": 0,
+  "scope": "Random initialization V4 -> V4 fast warm-start -> 48-to-56 observation V5 transfer; 64 environments, 2 iterations each. Interface/serialization smoke test only, not trained skill performance."
+}

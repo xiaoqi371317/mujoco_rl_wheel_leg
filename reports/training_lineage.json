@@ -1,0 +1,91 @@
+{
+  "scope": "Sanitized fields read from original run.json; configured iteration budgets, not checkpoint quality rankings. Earlier model assets and discarded runs are not an exact historical source snapshot.",
+  "runs": [
+    {
+      "run_label": "cmdvel_v4_fix_server",
+      "task": "cmd_vel_v4",
+      "envs": 512,
+      "iterations": 2400
+    },
+    {
+      "run_label": "cmdvel_v4_fast_server",
+      "task": "cmd_vel_v4_fast",
+      "envs": 512,
+      "iterations": 3000,
+      "warm_start": "cmdvel_v4_fix_server/model_2399.pt"
+    },
+    {
+      "run_label": "v5_server",
+      "task": "v5",
+      "envs": 1024,
+      "iterations": 1200,
+      "transfer": "V4 actor and critic; 8 zero-initialized phase inputs; fresh Adam",
+      "source": "cmdvel_v4_fast_server/model_2999.pt",
+      "resume": null
+    },
+    {
+      "run_label": "v5_rough_server",
+      "task": "v5_rough",
+      "envs": 1024,
+      "additional_iterations": 750,
+      "transfer": "Full V5 actor, critic, observation normalization and Adam state; LR overridden to 5e-5",
+      "source": "v5_server/model_1000.pt",
+      "resume": "v5_rough_startup/model_1050.pt"
+    },
+    {
+      "run_label": "v5_rugged_server",
+      "task": "v5_rugged",
+      "envs": 1024,
+      "additional_iterations": 600,
+      "transfer": "Full V5 actor, critic, observation normalization and Adam state; LR overridden to 5e-5",
+      "source": "v5_server/model_1000.pt",
+      "resume": "v5_rough_server/model_1799.pt"
+    },
+    {
+      "run_label": "v5_motion_server",
+      "task": "v5_motion",
+      "envs": 1024,
+      "additional_iterations": 900,
+      "transfer": "Full actor/critic and Adam continuation; LR 8e-5; std floor .06; normalization count 100000, moments retained",
+      "source": "v5_rugged_server/model_2250.pt",
+      "teacher": "v5_rough_server/model_1799.pt"
+    },
+    {
+      "run_label": "v5_jumpcarry_server",
+      "task": "v5_jumpcarry",
+      "envs": 1024,
+      "additional_iterations": 400,
+      "transfer": "Full actor/critic and Adam continuation; LR 5e-5; std floor .08; normalization count 100000, moments retained",
+      "source": "v5_motion_server/model_3000.pt",
+      "teacher": "v5_motion_server/model_3000.pt"
+    },
+    {
+      "run_label": "v6_gas_adapt_trial",
+      "task": "gas_adaptation_trial",
+      "envs": 1024,
+      "additional_iterations": 200,
+      "transfer": "Full actor/critic and Adam continuation; LR 3e-5; std floor .08; normalization count 100000, moments retained",
+      "source": "v5_jumpcarry_server/model_3250.pt",
+      "teacher": "v5_jumpcarry_server/model_3250.pt",
+      "stage": "stance"
+    },
+    {
+      "run_label": "v6_gas_landing_trial",
+      "task": "gas_landing_continuation",
+      "envs": 1024,
+      "additional_iterations": 300,
+      "transfer": "Full actor/critic and Adam continuation; LR 2e-5; std floor .08; normalization count 100000, moments retained",
+      "source": "v6_gas_adapt_trial/model_3449.pt",
+      "teacher": "v6_gas_adapt_trial/model_3449.pt",
+      "stage": "tuck"
+    },
+    {
+      "run_label": "v5_rough_startup",
+      "task": "v5_rough",
+      "source": "v5_server/model_1000.pt",
+      "envs": 1024,
+      "additional_iterations": 800,
+      "transfer": "Full V5 actor, critic, observation normalization and Adam state; LR overridden to 5e-5"
+    }
+  ]
+}

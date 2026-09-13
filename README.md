@@ -6,6 +6,19 @@ A reproducible wheel-legged robot simulation project with PPO training, browser 
 
 **当前定位：仿真实验项目。** 建议先体验 V5 行进策略。最新气弹簧策略改善了部分行进跳跃，但静止稳定性仍未通过完整验收；它不是全面优于 V5 的成品。100 N 是测试工况，最新模型在 200–300 N 下续训，尚未按实物标定。
 
+## 第一次来，先选你的目标
+
+| 我想做什么 | 从哪里开始 | 是否需要训练 |
+|---|---|---|
+| 先看小车跑起来 | 下方“快速开始”，加载 V5 基线 | 不需要 |
+| 看懂预训练是怎么得到的 | [逐阶段成长路线](docs/TRAINING_JOURNEY.md)，含来源关系图与真实训练记录 | 不需要 |
+| 自己从随机权重训练 | [从零操作指南](docs/FROM_SCRATCH.md)，按阶段训练、评估、选择检查点 | 需要，耗时较长 |
+| 在已有能力上继续改 | [续训与评估](docs/TRAINING.md)，先做两轮冒烟验证 | 只训练后续阶段 |
+
+预训练主线：**对称模型 → V4 驾驶 → 1.3 m/s → 起立/原地跳 → 轻坑洼 → 更崎岖 → 2 m/s 与行进组合 → 保速跳跃 → 气弹簧适应 → 收腿/落地优化。**
+
+公开 `v5_motion/model_3250.pt` 来自历史 **jumpcarry** 阶段；它已经历多阶段训练。后两个气弹簧检查点从它继续得到。早期中间权重未打包，复现完整前段需要实际训练；阶段命令与迁移方式见上述指南。
+
 ## 快速开始
 
 在 Linux NVIDIA GPU 环境，从仓库根目录执行（经过验证的依赖见 [安装与排错](docs/QUICKSTART.md)）：
@@ -41,6 +54,8 @@ CUDA_VISIBLE_DEVICES=0 python -m infantry_rl.mjlab_gas_landing_play \
 
 ## 文档导航
 
+- [预训练成长路线与真实来源](docs/TRAINING_JOURNEY.md)
+- [从随机策略开始的分阶段操作](docs/FROM_SCRATCH.md)
 - [安装、回放与常见问题](docs/QUICKSTART.md)
 - [训练与评估：从检查点继续](docs/TRAINING.md)
 - [模型、动作与检查点说明](docs/MODEL_CARD.md)

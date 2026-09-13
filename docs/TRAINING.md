@@ -1,5 +1,7 @@
 # 续训与验收
 
+本页适合已有检查点的续训。想知道权重如何获得，先读 [预训练成长路线](TRAINING_JOURNEY.md)；想从随机策略开始，使用 [从零操作指南](FROM_SCRATCH.md)。
+
 以下命令在仓库根目录、已激活环境中运行。先查看 GPU 占用，再选择自己可用的卡；示例的 0 只是占位选择。建议设定 `OMP_NUM_THREADS=4 MKL_NUM_THREADS=4 OPENBLAS_NUM_THREADS=4`，遵守所在服务器配额。
 
 ## 最小续训验证
