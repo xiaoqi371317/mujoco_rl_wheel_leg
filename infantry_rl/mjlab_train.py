@@ -43,11 +43,11 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--envs", type=int, default=256)
     ap.add_argument("--iterations", type=int, default=1000)
-    ap.add_argument("--task", choices=["balance", "velocity", "cmd_vel", "cmd_vel_v3", "cmd_vel_v4", "cmd_vel_v4_fast"], default="cmd_vel")
+    ap.add_argument("--task", choices=["cmd_vel_v4", "cmd_vel_v4_fast"], default="cmd_vel_v4")
     ap.add_argument("--out", type=Path, required=True)
     ap.add_argument("--resume", type=Path)
     ap.add_argument("--warm-start", type=Path, help='Load compatible actor/critic weights with fresh optimizer and curriculum')
-    ap.add_argument("--model", choices=['original','fix'], default='original')
+    ap.add_argument("--model", choices=['fix'], default='fix')
     ap.add_argument('--refine-stop',action='store_true',help='Continue fast policy with low-stance stop regularization')
     args = ap.parse_args()
     from infantry_rl.model_selection import select_model
@@ -66,14 +66,9 @@ def main():
     out.mkdir(parents=True, exist_ok=True)
     if (out / "run.json").exists():
         raise FileExistsError("Use a new run directory")
-    task_factory = make_cfg
-    if args.task == 'cmd_vel':
-        from infantry_rl.mjlab_cmdvel_task import make_cfg as task_factory
-    elif args.task == 'cmd_vel_v3':
-        from infantry_rl.mjlab_cmdvel_v3_task import make_cfg as task_factory
-    elif args.task == "cmd_vel_v4":
+    if args.task == "cmd_vel_v4":
         from infantry_rl.mjlab_cmdvel_v4_task import make_cfg as task_factory
-    elif args.task == "cmd_vel_v4_fast":
+    else:
         from infantry_rl.mjlab_cmdvel_v4_fast_task import make_cfg as task_factory
     cfg = task_factory(args.envs, args.task)
     if args.refine_stop:

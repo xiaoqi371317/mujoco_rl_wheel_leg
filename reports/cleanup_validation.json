@@ -1,0 +1,7 @@
+{
+  "v4": "passed",
+  "gas": "passed",
+  "imports": "all retained modules imported",
+  "checkpoint_compatibility": "three bundles verified",
+  "scope": "64 environments, two iterations each; code cleanup regression test only"
+}
